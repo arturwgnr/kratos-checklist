@@ -1,12 +1,41 @@
-# React + Vite
+# Kratos Checklist ✅⚔️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A task organizer with discipline and style — built using React.  
+Simple, functional, and inspired by the spirit of Ragnarok.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add, edit, and delete tasks
+- Click to toggle completion with animation and visual feedback
+- Filter tasks: All | Pending | Completed
+- "Delete All" button (visible when you have 2 or more tasks)
+- Persistent data using `localStorage`
+- Fully responsive and custom-styled interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS (Flexbox)
+- localStorage API
+- Git & GitHub
+
+---
+
+## 📷 Screenshot
+
+![preview](./screenshot.png) 
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/arturwgnr/kratos-checklist
+cd kratos-checklist
+npm install
+npm start
