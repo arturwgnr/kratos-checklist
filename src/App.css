@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/kratos-rage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(114, 111, 148, 0.199); /* filtro escuro */
+  backdrop-filter: blur(3px); /* desfoque */
+  z-index: 0;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+.user-input {
+  width: 400px;
+  height: 36px;
+  padding: 1px 6px;
+  outline: none;
+  box-shadow: 1px 2px 20px solid rgba(29, 24, 24, 0.849);
+  font-size: 16px;
+  margin-right: 5px;
+  background-color: #525050;
+  border: 1px solid rgb(75, 73, 73);
+  border-radius: 4px;
+  color: rgb(253, 253, 253) !important;
+}
+
+.user-input::placeholder {
+  color: #ddd;
+  opacity: 1;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+
+.task-content {
+  flex: 1;
+  margin-right: 12px;
+  font-size: 16px;
+  color: #fff;
+  text-align: left;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.remove-button {
+  background-color: #2774aa;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  padding: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+}
+
+.edit-button {
+  background-color: #236594;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  height: 28px;
+  cursor: pointer;
+  padding: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease;
+  font-weight: lighter;
+}
+
+.remove-button:hover {
+  background-color: #2885c7;
+  box-shadow: 0 0 30px #00aaff7a;
+}
